@@ -58,7 +58,7 @@ export default function Input() {
   const style = {
     fontSize: '1.5em',
     marginBottom: '0.3em',
-    color: inputValue.length > 10 ? 'royalblue' : 'crimson' /* STEP 2 */
+    color: inputValue.length <= 10 ? 'royalblue' : 'crimson' /* STEP 2 */
   };
 
   console.log('length', inputValue.length)
